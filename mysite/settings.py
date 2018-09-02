@@ -83,6 +83,14 @@ DATABASES = {
 }
 
 
+EMAIL_HOST = 'smtp.qq.com'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = '951618223@qq.com' # 你的 QQ 账号
+EMAIL_HOST_PASSWORD = 'ucxhxmqauebhbfah'
+EMAIL_USE_TLS = True # 这里必须是 True，否则发送不成功
+EMAIL_FROM = '951618223@qq.com' # 你的 QQ 账号
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
